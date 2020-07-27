@@ -1,5 +1,6 @@
+================
 XStatic-Dagre-D3
---------------
+================
 
 Dagre-D3 JavaScript library packaged for setuptools (easy_install) / pip.
 

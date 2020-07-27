@@ -3,14 +3,14 @@ from xstatic.pkg import dagre_d3 as xs
 
 # The README.txt file should be written in reST so that PyPI can use
 # it to generate your project's PyPI page.
-long_description = open('README.txt').read()
+long_description = open('README.rst').read()
 
 setup(
     name=xs.PACKAGE_NAME,
     version=xs.PACKAGE_VERSION,
     description=xs.DESCRIPTION,
     long_description=long_description,
-    long_description_content_type="text/markdown",
+    long_description_content_type="text/x-rst",
     classifiers=xs.CLASSIFIERS,
     keywords=xs.KEYWORDS,
     maintainer=xs.MAINTAINER,
